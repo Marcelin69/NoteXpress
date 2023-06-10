@@ -42,7 +42,7 @@ composer install
 - [x] Comprendre le système de templates
 - [ ] Injecter des données dans les templates
 - [x] Installer Bootstrap
-- [ ] Améliorer le design de la page d'accueil
+- [x] Améliorer le design de la page d'accueil
 - [ ] Mettre en place le CRUD
 - [ ] Sécuriser les formulaires
 - [ ] Sécuriser les routes

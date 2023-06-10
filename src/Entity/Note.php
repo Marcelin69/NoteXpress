@@ -23,6 +23,9 @@ class Note
     #[ORM\ManyToOne(inversedBy: 'notes')]
     private ?Category $category = null;
 
+    #[ORM\Column]
+    private ?bool $isPublished = false;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -60,6 +63,18 @@ class Note
     public function setCategory(?Category $category): static
     {
         $this->category = $category;
+
+        return $this;
+    }
+
+    public function isIsPublished(): ?bool
+    {
+        return $this->isPublished;
+    }
+
+    public function setIsPublished(bool $isPublished): static
+    {
+        $this->isPublished = $isPublished;
 
         return $this;
     }

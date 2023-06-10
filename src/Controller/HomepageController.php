@@ -2,17 +2,20 @@
 
 namespace App\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use App\Repository\NoteRepository;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class HomepageController extends AbstractController
 {
     #[Route('/', name: 'app_homepage', methods: ['GET'])]
-    public function index(): Response
+    public function index(
+        NoteRepository $notes
+    ): Response
     {
         return $this->render('homepage/index.html.twig', [
-            'controller_name' => 'HomepageController',
+            'notes' => $notes->findAll(),
         ]);
     }
 }
