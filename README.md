@@ -40,7 +40,7 @@ composer install
 - [x] Créer un premier contrôleur
 - [x] Créer une page d'accueil
 - [x] Comprendre le système de templates
-- [ ] Injecter des données dans les templates
+- [x] Injecter des données dans les templates
 - [x] Installer Bootstrap
 - [x] Améliorer le design de la page d'accueil
 - [ ] Mettre en place le CRUD
