@@ -34,6 +34,10 @@ class Note
     #[ORM\Column]
     private ?bool $isPublished = false;
 
+    #[ORM\ManyToOne]
+    #[ORM\JoinColumn(nullable: true)]
+    private ?User $user = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -83,6 +87,18 @@ class Note
     public function setIsPublished(bool $isPublished): static
     {
         $this->isPublished = $isPublished;
+
+        return $this;
+    }
+
+    public function getUser(): ?User
+    {
+        return $this->user;
+    }
+
+    public function setUser(?User $user): static
+    {
+        $this->user = $user;
 
         return $this;
     }

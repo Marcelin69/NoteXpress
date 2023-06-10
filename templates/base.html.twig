@@ -19,25 +19,19 @@
 
 			<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 				<li>
-					<a href="#" class="nav-link px-2 link-secondary">Home</a>
+					<a href={{ path('app_note_index') }} class="nav-link px-2">Notes</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link px-2">Features</a>
+					<a href={{ path('app_category_index') }} class="nav-link px-2">Categories</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link px-2">Pricing</a>
-				</li>
-				<li>
-					<a href="#" class="nav-link px-2">FAQs</a>
-				</li>
-				<li>
-					<a href="#" class="nav-link px-2">About</a>
+					<a href="#" class="nav-link px-2">Account</a>
 				</li>
 			</ul>
 
 			<div class="col-md-3 text-end">
-				<button type="button" class="btn btn-outline-primary me-2">Login</button>
-				<button type="button" class="btn btn-primary">Sign-up</button>
+				<a href={{ path('app_login') }} type="button" class="btn btn-outline-primary me-2">Login</a>
+				<a href={{ path('app_register') }} type="button" class="btn btn-primary">Sign-up</a>
 			</div>
 		</header>
 		<main class="container">

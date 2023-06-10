@@ -48,7 +48,7 @@ composer install
 - [x] Sécuriser les routes
 - [x] Créer un système d'inscription
 - [x] Créer un système de connexion
-- [ ] Attacher les notes à un utilisateur
+- [x] Attacher les notes à un utilisateur
 - [ ] Empêcher un utilisateur d'accéder aux notes sans être connecté
 - [ ] Tester l'application
 - [ ] Préparer le déploiement
