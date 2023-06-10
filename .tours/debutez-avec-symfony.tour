@@ -1,0 +1,30 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Débutez avec Symfony",
+  "steps": [
+    {
+      "file": ".env",
+      "description": "Pour commencer, prennez connaissance des diagrammes UML de l'application pour suivre correctement le projet. Suite à cela, nous voici dans le fichier .env\n\nIl s'agit d'un fichier d'environnement qu'utilise Symfony pour plusieurs choses importantes. Pour le moment, ce qui nous interesse, c'est de mettre en place une base de données pour l'application.",
+      "line": 22
+    },
+    {
+      "file": ".env",
+      "selection": {
+        "start": {
+          "line": 26,
+          "character": 1
+        },
+        "end": {
+          "line": 29,
+          "character": 92
+        }
+      },
+      "description": "Ci-dessous se trouve la partie réservée à la connexion à la base de données.\nPar défaut, on 4 lignes pour chaque type de BDD SQL (SQLite, MySQL, MariaDB et PostgreSQL).\n\nChoisissez la votre, décommentez-la, commentez les autres et complétez les informations de connexion, exemple pour un serveur MariaDB local:\n\n- Mac ou Linux\n\nDATABASE_URL=\"mysql://**root:root**@127.0.0.1:3306/**notexpress**?serverVersion=8.0.32&charset=utf8mb4\"\n\n- Windows\n\nDATABASE_URL=\"mysql://**root:**@127.0.0.1:3306/**notexpress**?serverVersion=8.0.32&charset=utf8mb4\"\n\nPrennez le soin de changer le port d'écoute si besoin, par exemple avec MAMP c'est 8889 et non 3306."
+    },
+    {
+      "file": ".env",
+      "description": "Très bien, maintenant vous aller pouvoir créer la BDD. Pour cela Symfony est accompagné de Doctrine, c'est un ORM. Faites de recherche pour comprendre de quoi il s'agit.\n\nOuvrez votre terminal dans VS Code ou à part comme vous le souhaitez, puis lancer la commande suivante pour créer la BDD :\n\n```bash\nphp bin/console doctrine:database:create\n```\n\nVous n'avez plus qu'à lire le message de sortie suite à la commande. Si vous avez une erreur, **lisez-la** pour comprendre le problème, puis résolvez-le.",
+      "line": 42
+    }
+  ]
+}
