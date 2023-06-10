@@ -30,28 +30,28 @@ composer install
 
 ## Déroulé de la formation
 
-1. Créer un projet Symfony
-2. Créer une base de données (BDD)
-3. Créer des entités
-4. Migrer les entités en BDD
-5. Ajouter des relations entre les entités
-6. Créer des fixtures (données de test)
-7. Installer un certificat SSL
-8. Créer un premier contrôleur
-9. Créer une page d'accueil
-10. Comprendre le système de templates
-11. Injecter des données dans les templates
-12. Installer Bootstrap
-13. Améliorer le design de la page d'accueil
-14. Mettre en place le CRUD
-15. Sécuriser les formulaires
-16. Sécuriser les routes
-17. Créer un système d'inscription
-18. Créer un système de connexion
-19. Attacher les notes à un utilisateur
-20. Empêcher un utilisateur d'accéder aux notes sans être connecté
-21. Tester l'application
-22. Préparer le déploiement
+- [ ] Créer un projet Symfony
+- [ ] Créer une base de données (BDD)
+- [ ] Créer des entités
+- [ ] Migrer les entités en BDD
+- [ ] Ajouter des relations entre les entités
+- [ ] Créer des fixtures (données de test)
+- [ ] Installer un certificat SSL
+- [ ] Créer un premier contrôleur
+- [ ] Créer une page d'accueil
+- [ ] Comprendre le système de templates
+- [ ] Injecter des données dans les templates
+- [ ] Installer Bootstrap
+- [ ] Améliorer le design de la page d'accueil
+- [ ] Mettre en place le CRUD
+- [ ] Sécuriser les formulaires
+- [ ] Sécuriser les routes
+- [ ] Créer un système d'inscription
+- [ ] Créer un système de connexion
+- [ ] Attacher les notes à un utilisateur
+- [ ] Empêcher un utilisateur d'accéder aux notes sans être connecté
+- [ ] Tester l'application
+- [ ] Préparer le déploiement
 
 ## Ressources
 
