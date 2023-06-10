@@ -65,21 +65,21 @@ composer install
 
 L'ensemble des diagrammes UML sont disponibles dans le dossier `/UML`. Ils ont été générés avec [PlantUML](https://plantuml.com/).
 
-##### Diagramme de classes :
+| Diagramme de classes | Diagramme d'objets |
+| :------------------: | :----------------: |
+| ![Diagramme de classes](/UML/classes.svg) | ![Diagramme d'objets](/UML/objets.svg) |
 
-![Diagramme de classes](/UML/classes.svg)
+---
 
-##### Diagramme d'objets :
+| Diagramme d'activités (Algorithme) |
+| :--------------------------------: |
+| ![Diagramme d'activités](/UML/algorithme.svg) |
 
-![Diagramme d'objets](/UML/objets.svg)
+---
 
-##### Diagramme de cas d'utilisation :
-
-![Diagramme de cas d'utilisation](/UML/algorithme.svg)
-
-##### Diagramme de séquence :
-
-![Diagramme de séquence](/UML/sequence.svg)
+| Diagramme de séquence (Complet) |
+| :------------------------------: |
+| ![Diagramme de séquence (Complet)](/UML/sequence.svg) |
 
 ---
 
