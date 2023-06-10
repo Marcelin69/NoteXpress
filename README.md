@@ -1,6 +1,16 @@
-# NoteXpress
+# Projet backend - NoteXpress
 
-Un outil de prise de notes conçu avec [Symfony 6](https://symfony.com/).
+<p align="center">
+  <img src="public/images/nx-color.svg" alt="Actus Crypto" width="300" />
+</p>
+
+## Description
+
+Pour mes étudiants : Ce projet est une application de prise de notes conçu avec le framework PHP, Symfony 6.
+
+Ce projet fait partie de la formation Agiliteach "Développement Web Moderne avec l'IA". Disponible sur la plateforme Udemy.
+
+ [Symfony 6](https://symfony.com/).
 
 ## Installation
 
