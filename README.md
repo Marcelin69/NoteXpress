@@ -49,7 +49,7 @@ composer install
 - [x] Créer un système d'inscription
 - [x] Créer un système de connexion
 - [x] Attacher les notes à un utilisateur
-- [ ] Empêcher un utilisateur d'accéder aux notes sans être connecté
+- [x] Empêcher un utilisateur d'accéder aux notes sans être connecté
 - [ ] Tester l'application
 - [ ] Préparer le déploiement
 
