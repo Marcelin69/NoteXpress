@@ -43,9 +43,9 @@ composer install
 - [x] Injecter des données dans les templates
 - [x] Installer Bootstrap
 - [x] Améliorer le design de la page d'accueil
-- [ ] Mettre en place le CRUD
-- [ ] Sécuriser les formulaires
-- [ ] Sécuriser les routes
+- [x] Mettre en place le CRUD
+- [x] Sécuriser les formulaires
+- [x] Sécuriser les routes
 - [ ] Créer un système d'inscription
 - [ ] Créer un système de connexion
 - [ ] Attacher les notes à un utilisateur
