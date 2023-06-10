@@ -30,18 +30,18 @@ composer install
 
 ## Déroulé de la formation
 
-- [ ] Créer un projet Symfony
-- [ ] Créer une base de données (BDD)
-- [ ] Créer des entités
-- [ ] Migrer les entités en BDD
-- [ ] Ajouter des relations entre les entités
-- [ ] Créer des fixtures (données de test)
-- [ ] Installer un certificat SSL
-- [ ] Créer un premier contrôleur
-- [ ] Créer une page d'accueil
-- [ ] Comprendre le système de templates
+- [x] Créer un projet Symfony
+- [x] Créer une base de données (BDD)
+- [x] Créer des entités
+- [x] Migrer les entités en BDD
+- [x] Ajouter des relations entre les entités
+- [x] Créer des fixtures (données de test)
+- [x] Installer un certificat SSL
+- [x] Créer un premier contrôleur
+- [x] Créer une page d'accueil
+- [x] Comprendre le système de templates
 - [ ] Injecter des données dans les templates
-- [ ] Installer Bootstrap
+- [x] Installer Bootstrap
 - [ ] Améliorer le design de la page d'accueil
 - [ ] Mettre en place le CRUD
 - [ ] Sécuriser les formulaires
