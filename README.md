@@ -17,7 +17,7 @@ Ce projet fait partie de la formation Agiliteach "Développement Web Moderne ave
 1. Cloner le projet sur votre machine locale :
 
 ```bash
-git clone <url du projet>
+git clone https://github.com/Jensone/NoteXpress.git
 ```
 
 2. Installer les dépendances :
