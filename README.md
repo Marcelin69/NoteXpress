@@ -61,7 +61,7 @@ composer install
 - [Doctrine](https://www.doctrine-project.org/)
 - [EasyAdmin](https://symfony.com/doc/current/bundles/EasyAdminBundle/index.html)
 
-## UML
+### UML
 
 L'ensemble des diagrammes UML sont disponibles dans le dossier `/UML`. Ils ont été générés avec [PlantUML](https://plantuml.com/).
 
@@ -69,17 +69,35 @@ L'ensemble des diagrammes UML sont disponibles dans le dossier `/UML`. Ils ont �
 | :------------------: | :----------------: |
 | ![Diagramme de classes](/UML/classes.svg) | ![Diagramme d'objets](/UML/objets.svg) |
 
----
-
 | Diagramme d'activités (Algorithme) |
 | :--------------------------------: |
 | ![Diagramme d'activités](/UML/algorithme.svg) |
 
----
-
 | Diagramme de séquence (Complet) |
 | :------------------------------: |
 | ![Diagramme de séquence (Complet)](/UML/sequence.svg) |
+
+### Liste des commandes utiles
+
+La liste des commandes utiles pour ce projet. Elles sont à exécuter dans le terminal, à la racine du projet. Chose importante, il faut avoir installé [Symfony CLI](https://symfony.com/download) pour pouvoir utiliser les commandes `symfony` autrement il faut remplacer `symfony` par `php bin/console`.
+
+| Commande | Description |
+| :------ | :--------- |
+| `symfony server:ca:install` | Installe un certificat SSL en local |
+| `symfony server:start -d` | Lance le serveur web en arrière-plan |
+| `symfony server:stop` | Arrête le serveur web |
+| `composer require symfony/messenger` | Installe le composant Messenger |
+| `symfony console messenger:consume async` | Lance le consommateur de messages en arrière-plan |
+| `symfony console make:entity` | Crée une entité |
+| `symfony console make:migration` | Crée une migration pour le schéma de la BDD |
+| `symfony console doctrine:migrations:migrate` | Exécute les migrations vers la BDD |
+| `composer require --dev doctrine/doctrine-fixtures-bundle` | Installe le bundle de fixtures |
+| `symfony console doctrine:fixtures:load` | Charge les fixtures (données de test) dans la BDD |
+| `symfony console make:controller` | Crée un contrôleur |
+| `symfony console make:crud` | Crée un CRUD (Create, Read, Update, Delete) |
+| `symfony console make:auth` | Crée un système d'authentification |
+| `symfony console make:user` | Crée un utilisateur |
+| `symfony console make:registration-form` | Crée un formulaire d'inscription |
 
 ---
 
