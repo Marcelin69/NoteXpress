@@ -46,8 +46,8 @@ composer install
 - [x] Mettre en place le CRUD
 - [x] Sécuriser les formulaires
 - [x] Sécuriser les routes
-- [ ] Créer un système d'inscription
-- [ ] Créer un système de connexion
+- [x] Créer un système d'inscription
+- [x] Créer un système de connexion
 - [ ] Attacher les notes à un utilisateur
 - [ ] Empêcher un utilisateur d'accéder aux notes sans être connecté
 - [ ] Tester l'application
