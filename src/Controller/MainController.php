@@ -10,7 +10,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class MainController extends AbstractController
 {
-    #[Route('/index', name: 'app_main')]
+    #[Route('/', name: 'app_main')]
     public function index(
         CategoryRepository $categories,
         NoteRepository $not
