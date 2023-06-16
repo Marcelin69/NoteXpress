@@ -17,24 +17,28 @@ class AppFixtures extends Fixture
         $users->setName("Silver Dragon");
         $users->setPassword('$2y$13$WUbUHpXU3sEo9tMwEMcb0u.NtFFmX9zo50L7Og702DXvQ0JoVvRhG');
         $users->setRoles(["ROLE_ADMIN"]);
+        $users->setEmail('Dragon@gmail.com');
         $manager->persist($users);
 
         $users= new User();
         $users->setName("Mystic Soul");
         $users->setPassword('$2y$13$WUbUHpXU3sEo9tMwEMcb0u.NtFFmX9zo50L7Og702DXvQ0JoVvRhG');
         $users->setRoles(["ROLE_ADMIN"]);
+        $users->setEmail('Soul@gmail.com');
         $manager->persist($users);
 
         $users= new User();
         $users->setName("Crimson Rider");
         $users->setPassword('$2y$13$WUbUHpXU3sEo9tMwEMcb0u.NtFFmX9zo50L7Og702DXvQ0JoVvRhG');
         $users->setRoles(["ROLE_USER"]);
+        $users->setEmail('Rider@gmail.com');
         $manager->persist($users);
 
         $users= new User();
         $users->setName("Lunar Eclipse");
         $users->setPassword('$2y$13$WUbUHpXU3sEo9tMwEMcb0u.NtFFmX9zo50L7Og702DXvQ0JoVvRhG');
         $users->setRoles(["ROLE_USER"]);
+        $users->setEmail('Eclipse@gmail.com');
         $manager->persist($users);
 
         // $user = new User();

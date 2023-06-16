@@ -13,13 +13,11 @@ class MainController extends AbstractController
     #[Route('/', name: 'app_main')]
     public function index(
         CategoryRepository $categories,
-        NoteRepository $not
-    ): Response
+              ): Response
     {
         
         return $this->render('main/index.html.twig', [
             'categorie' =>  $categories -> findAll() ,
-            'notes' =>$not ->findAll(),
         ]);
     }
 }

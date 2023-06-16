@@ -12,10 +12,10 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class NoteController extends AbstractController
 {
-    #[Route('/form', name: 'app_note_index', methods: ['GET'])]
+    #[Route('/', name: 'app_main', methods: ['GET'])]
     public function index(NoteRepository $noteRepository): Response
     {
-        return $this->render('note/index.html.twig', [
+        return $this->render('main/index.html.twig', [
             'notes' => $noteRepository->findAll(),
         ]);
     }
@@ -30,7 +30,7 @@ class NoteController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $noteRepository->save($note, true);
 
-            return $this->redirectToRoute('app_note_index', [], Response::HTTP_SEE_OTHER);
+            return $this->redirectToRoute('app_main', [], Response::HTTP_SEE_OTHER);
         }
 
         return $this->renderForm('note/new.html.twig', [
@@ -56,7 +56,7 @@ class NoteController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $noteRepository->save($note, true);
 
-            return $this->redirectToRoute('app_note_index', [], Response::HTTP_SEE_OTHER);
+            return $this->redirectToRoute('app_main', [], Response::HTTP_SEE_OTHER);
         }
 
         return $this->renderForm('note/edit.html.twig', [
@@ -72,6 +72,6 @@ class NoteController extends AbstractController
             $noteRepository->remove($note, true);
         }
 
-        return $this->redirectToRoute('app_note_index', [], Response::HTTP_SEE_OTHER);
+        return $this->redirectToRoute('app_main', [], Response::HTTP_SEE_OTHER);
     }
 }
